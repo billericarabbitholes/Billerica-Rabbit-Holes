@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Name Series</title>
+</head>
+<body>
+    <h1>Billerica Rabbit Holes</h1>
+
+    <p>Local history writing and research by Keith Lavon.</p>
+
+    <h2>Articles</h2>
+
+    <ul>
+        <li><a href="bennett-hall.html">Bennett Hall</a></li>
+        <li><a href="pinehurst-park.html">Pinehurst Park</a></li>
+    </ul>
+</body>
+</html>
