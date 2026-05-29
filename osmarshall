@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dr. Orland S. Marshall | Billerica School Names</title>
+    <style>
+        :root {
+            --text: #1f2933;
+            --muted: #5f6b76;
+            --rule: #d8dee4;
+            --background: #f7f4ef;
+            --paper: #fffdf8;
+            --accent: #633c1f;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            color: var(--text);
+            background: var(--background);
+            line-height: 1.65;
+        }
+
+        .page {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 40px 22px 72px;
+        }
+
+        article {
+            background: var(--paper);
+            border: 1px solid var(--rule);
+            padding: 42px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+        }
+
+        nav {
+            margin-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.92rem;
+        }
+
+        nav a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            border-bottom: 1px solid var(--rule);
+            margin-bottom: 28px;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(2rem, 5vw, 3rem);
+            line-height: 1.1;
+            color: var(--accent);
+        }
+
+        .subtitle {
+            margin-top: 10px;
+            color: var(--muted);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin: 0 0 1.05rem;
+            font-size: 1.08rem;
+        }
+
+        blockquote {
+            margin: 1.4rem 0;
+            padding: 0.2rem 0 0.2rem 1.2rem;
+            border-left: 4px solid var(--accent);
+            color: #374151;
+            font-style: italic;
+            font-size: 1.08rem;
+        }
+
+        footer {
+            margin-top: 28px;
+            padding-top: 18px;
+            border-top: 1px solid var(--rule);
+            color: var(--muted);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 640px) {
+            .page {
+                padding: 20px 12px 48px;
+            }
+
+            article {
+                padding: 26px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <nav><a href="index.html">← Back to home</a></nav>
+
+        <article>
+            <header>
+                <h1>Dr. Orland S. Marshall</h1>
+                <div class="subtitle">Marshall Middle School</div>
+            </header>
+
+        <p>Marshall Middle School has been part of Billerica for generations.</p>
+        <p>But like a lot of names in town, it’s one we recognize without always stopping to ask — who was Marshall?</p>
+        <p>The answer is Dr. Orland Smith Marshall.</p>
+        <p>And for much of the 20th century, he wasn’t just a name — he was someone almost everyone in Billerica would have known.</p>
+        <p>He was a town doctor. A school physician. A civic figure whose work touched generations of families.</p>
+        <p>But his story begins elsewhere in New England. Marshall was born in Maine in 1892, into a family where medicine was already the life’s work. His father — and even his grandfather — were physicians. His life also began with early loss: his mother died shortly after his birth — a sobering reminder that even in a family of doctors, childbirth was still dangerous. He was raised by his father and aunt, who became his stepmother.</p>
+        <p>As his education continued, Marshall enrolled at Tufts College Medical School but before he became a doctor, the world itself was undergoing a radical change.</p>
+        <p>In 1917, as the United States entered World War I, Marshall had paused his studies and was already in France — in a war long underway.</p>
+        <p>His path does not look the way we expect today. Before the American military had fully organized its own medical system overseas, young Americans — many of them college and medical students — went on their own, volunteering with the French. Some joined ambulance sections attached directly to French army units. They were civilians, technically. But the work they did placed them at the front.</p>
+        <p>Marshall was one of them.</p>
+        <p>On his draft registration, he did not claim exemption as a student. Instead, he listed his service plainly: “member of the American Ambulance Corps.” He wasn’t waiting to be called. He had already gone.</p>
+        <p>A roster of the American Field Service places him in S.S.U. 4 in 1917 — a small unit of about twenty drivers.</p>
+        <p>By the time he arrived, the war had settled into something grim and mechanical. Armies dug into the earth, creating trench systems stretching for hundreds of miles. A “front line” was not a single place, but a series of positions — first line, second line, reserve — connected by narrow communication trenches.</p>
+        <p>That is where the ambulance sections worked.</p>
+        <p>They drove modified Ford Model Ts, built to carry stretchers — often three at a time. There was no armor. Little suspension. Just shelled-out roads, mud, and darkness. They drove at all hours, often at night with lights off, moving the wounded out and returning again.</p>
+        <p>And by 1917, they drove through gas.</p>
+        <blockquote>“Members of the Section will remember during this period the frequent gas attacks… and the difficulty of driving through the gas at night wearing a gas-mask. Several of us were gassed…”</blockquote>
+        <p>The work placed them in the narrow space between safety and exposure — not in the trenches, but not behind them either.</p>
+        <p>Close enough that morning revealed what the night had hidden:</p>
+        <blockquote>“Daylight uncovered a series of ghastly scenes along the road to Bras.”</blockquote>
+        <p>By October of 1917, after months in the Verdun sector, his section was finally relieved — having, as their history put it, “outlived” several others and earned its rest.</p>
+        <p>When the French command awarded Croix de Guerre medals to the section’s officer, he was instructed to select four men from the unit to receive them.</p>
+        <p>He refused:</p>
+        <blockquote>“All had done so well that it would be unfair to pick out any four.”</blockquote>
+        <p>Marshall remained in France into early 1918, continuing his wartime service as American forces began to arrive in force.</p>
+        <p>After the war, he returned home, completed his medical training, graduating from Tufts in 1922, and by the mid-1920s was working as a house physician at Lowell General Hospital — a common final step before entering private practice.</p>
+        <p>Not long after, he came to Billerica. But Dr. Marshall did not simply arrive — he was chosen.</p>
+        <p>For twenty years, Dr. Maurice A. Buck — a Billerica institution in his own right, and once among the names put forward for a new school — had served as school physician while also sitting on the School Committee. When a court ruling in 1926 made that arrangement impossible, Buck stepped aside and, on his own motion, named his replacement.</p>
+        <p>The physician he put forward was Dr. Orland S. Marshall.</p>
+        <p>And then he stayed. It was here that he built his life.</p>
+        <p>He married Stella Conti, and together they raised three children.</p>
+        <p>For 47 years, Dr. Marshall practiced medicine in town - and that work didn’t always keep regular hours.</p>
+        <p>In one account from the time, a late-night car accident required medical care on scene. Marshall was the doctor who was called to the scene in the early hours of the morning, after midnight. But that wasn’t unusual.</p>
+        <p>This was still the era of house calls — and of doctors going where they were needed.</p>
+        <p>There are other references like this — brief mentions in reports and newspapers, patients treated at the scene, calls answered at all hours. Most don’t preserve the full story. They appear only in passing — a name, a time, an outcome.</p>
+        <p>But taken together, they give a clearer picture.</p>
+        <p>When something happened in Billerica — day or night — Marshall was often the one who went.</p>
+        <p>By 1937, Marshall was also serving as physician to the Middlesex House of Correction — another indication of the trust placed in him and the breadth of his work. He also served as a physician for the Boston &amp; Maine Railroad and on the Selective Service Board for Billerica, among other roles.</p>
+        <p>And for years after, that work continued much the same — not marked by a single defining moment, but by its constancy. For 43 years, he served as Billerica’s school physician.</p>
+        <p>In his first report, he wrote simply:</p>
+        <blockquote>“I submit herewith my first semi-annual report as school physician of the Billerica schools.”</blockquote>
+        <p>It helps to understand a role that has mostly disappeared today. For much of the early and mid-20th century, towns like Billerica relied on a designated physician responsible for the health of students across the entire school system. For some children, Dr. Marshall may have been the only doctor they knew regularly — the one they saw at school, and sometimes at home as well.</p>
+        <p>He conducted examinations, monitored infectious disease, worked with the State Board of Health, and made decisions that affected when children could safely return to school.</p>
+        <p>In a single term, more than 1,100 children were examined. Cases of contagious disease were identified and students were excluded from school until they recovered. Vaccination was enforced.</p>
+        <p>Even in a relatively quiet term, he noted:</p>
+        <blockquote>“There have been no serious epidemics… there were, however, a number of cases of impetigo contagiosa… These children were excluded from the schools…”</blockquote>
+        <p>And in a notice to parents, he wrote plainly:</p>
+        <blockquote>“I wish to impress upon the parents the great value of diphtheria prevention. Please protect your child and sign the slips.”</blockquote>
+        <p>This was not administrative work. It was public health — carried out in real time, across an entire town’s children.</p>
+        <p>And for decades, Marshall was at the center of it.</p>
+        <p>Over time, medicine in Billerica — like everywhere else — grew beyond one person. Other physicians, including figures like Dr. Hajjar, would join that work as the system became larger and more specialized.</p>
+        <p>But Marshall represents an earlier phase — before that system fully took shape — when that responsibility was smaller in scale, but broader in scope, and often rested in the hands of a single, trusted doctor.</p>
+        <p>His career stretched across one of the greatest transformations in medical history — from a time when diseases like diphtheria were a constant threat, to the beginnings of the modern system of vaccination, antibiotics, and specialized care.</p>
+        <p>Marshall died at the age of 74 in late 1971, after more than four decades of medical practice in Billerica. From 1926 to 1967, he served as the town’s school physician — a span that covered generations of students.</p>
+        <p>He passed knowing the school would bear his name, but it did not open until 1972.</p>
+        <p>Today, it might seem unusual for a school to be named after a doctor.</p>
+        <p>But in his time, it would have felt almost inevitable.</p>
+        <p>Marshall came from deep New England roots — the kind of family lines that run through early Maine and Massachusetts history in every direction.</p>
+        <p>But his place in Billerica wasn’t inherited.</p>
+        <p>It was earned.</p>
+        <p>And for decades, it was a name everyone knew.</p>
+
+            <footer>
+                Part of the Billerica school names series.
+            </footer>
+        </article>
+    </main>
+</body>
+</html>
