@@ -1,18 +1,164 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>School Name Series</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Billerica School Names</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f7f4ee;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 22px 70px;
+    }
+
+    header {
+      border-bottom: 2px solid #2f2a24;
+      margin-bottom: 32px;
+      padding-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 2.2rem;
+      line-height: 1.15;
+    }
+
+    .subtitle {
+      margin: 0;
+      font-size: 1.05rem;
+      color: #5a5147;
+    }
+
+    .intro {
+      font-size: 1.08rem;
+      margin-bottom: 32px;
+    }
+
+    .school-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      margin-top: 28px;
+    }
+
+    .school-card {
+      display: block;
+      padding: 18px 20px;
+      background: #fffdf8;
+      border: 1px solid #d8d0c3;
+      border-left: 5px solid #2f2a24;
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.15s ease, transform 0.15s ease;
+    }
+
+    .school-card:hover {
+      background: #f0eadf;
+      transform: translateY(-1px);
+    }
+
+    .school-card h2 {
+      margin: 0 0 6px;
+      font-size: 1.25rem;
+    }
+
+    .school-card p {
+      margin: 0;
+      color: #5a5147;
+      font-size: 0.98rem;
+    }
+
+    footer {
+      margin-top: 44px;
+      padding-top: 18px;
+      border-top: 1px solid #d8d0c3;
+      color: #6a6258;
+      font-size: 0.92rem;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Billerica Rabbit Holes</h1>
+  <main class="page">
+    <header>
+      <h1>Billerica School Names</h1>
+      <p class="subtitle">The people behind the names on Billerica’s schools.</p>
+    </header>
 
-    <p>Local history writing and research by Keith Lavon.</p>
+    <section class="intro">
+      <p>
+        School names have a way of becoming familiar without being fully known.
+        They appear on report cards, yearbooks, sports schedules, bus routes,
+        and town maps, but the lives behind those names can fade into the
+        background.
+      </p>
 
-    <h2>Articles</h2>
+      <p>
+        This series looks at the people behind several Billerica school names:
+        educators, public figures, veterans, civic leaders, and local families
+        whose names became part of the town’s everyday geography.
+      </p>
 
-    <ul>
-        <li><a href="bennett-hall.html">Bennett Hall</a></li>
-        <li><a href="pinehurst-park.html">Pinehurst Park</a></li>
-    </ul>
+      <p>
+        The focus is not simply on why a school was named, but on who these
+        people were, what they did, and how their stories fit into Billerica’s
+        larger history.
+      </p>
+    </section>
+
+    <section class="school-list" aria-label="School name articles">
+
+      <a class="school-card" href="osmarshall.html">
+        <h2>O. S. Marshall</h2>
+        <p>Read the article</p>
+      </a>
+
+      <a class="school-card" href="sghajjar.html">
+        <h2>S. G. Hajjar</h2>
+        <p>Read the article</p>
+      </a>
+
+      <a class="school-card" href="ecvining.html">
+        <h2>Eugene C. Vining</h2>
+        <p>Read the article</p>
+      </a>
+
+      <a class="school-card" href="cdlocke.html">
+        <h2>Cyril D. Locke</h2>
+        <p>Read the article</p>
+      </a>
+
+      <a class="school-card" href="fjdutile.html">
+        <h2>Frederick J. Dutile</h2>
+        <p>Read the article</p>
+      </a>
+
+      <a class="school-card" href="pollard.html">
+        <h2>Pollard</h2>
+        <p>Read the article</p>
+      </a>
+
+      <a class="school-card" href="talbot.html">
+        <h2>Thomas Talbot</h2>
+        <p>Read the article</p>
+      </a>
+
+    </section>
+
+    <footer>
+      <p>
+        Written and researched as part of an ongoing series on Billerica local history.
+      </p>
+    </footer>
+  </main>
 </body>
 </html>
