@@ -1,224 +1,256 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cyril D. Locke | Billerica Rabbit Holes</title>
-  <style>
-    :root {
-      --text: #1f2933;
-      --muted: #667085;
-      --rule: #d0d5dd;
-      --bg: #fbfaf7;
-      --card: #ffffff;
-      --link: #184e77;
-    }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cyril D. Locke | Billerica School Names</title>
+    <style>
+        :root {
+            --text: #1f2933;
+            --muted: #5f6b76;
+            --rule: #d8dee4;
+            --background: #f7f4ef;
+            --paper: #fffdf8;
+            --accent: #633c1f;
+        }
 
+```
     body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.65;
-      font-size: 18px;
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--text);
+        background: var(--background);
+        line-height: 1.65;
     }
 
     .page {
-      max-width: 820px;
-      margin: 0 auto;
-      padding: 48px 22px 72px;
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 40px 22px 72px;
     }
 
     article {
-      background: var(--card);
-      padding: 42px;
-      border: 1px solid var(--rule);
-      box-shadow: 0 8px 24px rgba(16, 24, 40, 0.06);
+        background: var(--paper);
+        border: 1px solid var(--rule);
+        padding: 42px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    }
+
+    nav {
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.92rem;
+    }
+
+    nav a {
+        color: var(--accent);
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    header {
+        border-bottom: 1px solid var(--rule);
+        margin-bottom: 28px;
+        padding-bottom: 20px;
     }
 
     h1 {
-      font-size: clamp(2.2rem, 5vw, 3.5rem);
-      line-height: 1.05;
-      margin: 0 0 10px;
-      letter-spacing: -0.03em;
+        margin: 0;
+        font-size: clamp(2rem, 5vw, 3rem);
+        line-height: 1.1;
+        color: var(--accent);
     }
 
     .subtitle {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      color: var(--muted);
-      margin: 0 0 28px;
-      font-size: 1rem;
+        margin-top: 10px;
+        color: var(--muted);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
     }
 
     p {
-      margin: 0 0 1.05em;
+        margin: 0 0 1.05rem;
+        font-size: 1.08rem;
     }
 
     blockquote {
-      margin: 1.5em 0;
-      padding: 1em 1.25em;
-      border-left: 4px solid var(--rule);
-      background: #f7f7f5;
-      font-style: italic;
-    }
-
-    blockquote p:last-child {
-      margin-bottom: 0;
-    }
-
-    a {
-      color: var(--link);
-    }
-
-    .back-link {
-      display: inline-block;
-      margin-bottom: 18px;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 0.95rem;
+        margin: 1.4rem 0;
+        padding: 0.2rem 0 0.2rem 1.2rem;
+        border-left: 4px solid var(--accent);
+        color: #374151;
+        font-style: italic;
+        font-size: 1.08rem;
     }
 
     footer {
-      margin-top: 32px;
-      color: var(--muted);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 0.9rem;
+        margin-top: 28px;
+        padding-top: 18px;
+        border-top: 1px solid var(--rule);
+        color: var(--muted);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
     }
 
     @media (max-width: 640px) {
-      .page {
-        padding: 24px 14px 48px;
-      }
+        .page {
+            padding: 20px 12px 48px;
+        }
 
-      article {
-        padding: 26px 20px;
-      }
-
-      body {
-        font-size: 17px;
-      }
+        article {
+            padding: 26px 20px;
+        }
     }
-  </style>
+</style>
+```
+
 </head>
 <body>
-  <main class="page">
-    <a class="back-link" href="index.html">← Back to home</a>
+    <main class="page">
+        <nav><a href="index.html">← Back to home</a></nav>
 
+```
     <article>
-      <header>
-        <h1>Cyril D. Locke</h1>
-        <p class="subtitle">Locke Middle School</p>
-      </header>
+        <header>
+            <h1>Cyril D. Locke</h1>
+            <div class="subtitle">Locke Middle School</div>
+        </header>
 
-      <p>You probably know Locke Middle School. It is one of the older school buildings still in use as a school in town.</p>
+        <p>You probably know Locke Middle School. It is one of the older school buildings still in use as a school in town.</p>
 
-      <p>But like a lot of names in Billerica, it’s one we recognize without always stopping to ask — who was Cyril Locke?</p>
+        <p>But like a lot of names in Billerica, it’s one we recognize without always stopping to ask — who was Cyril Locke?</p>
 
-      <p>The story begins farther north across the border.</p>
+        <p>The story begins farther north across the border.</p>
 
-      <p>Cyril Durrant Locke was born in 1886 in Lockeport, Nova Scotia, a small coastal town that quite literally bore his family’s name. Generations earlier, the Lockes had helped establish the community, which grew around fishing, Atlantic trade, and the hard practical life of the Maritime coast.</p>
+        <p>Cyril Durrant Locke was born in 1886 in Lockeport, Nova Scotia, a small coastal town that quite literally bore his family’s name. Generations earlier, the Lockes had helped establish the community, which grew around fishing, Atlantic trade, and the hard practical life of the Maritime coast.</p>
 
-      <p>By the time Cyril was growing up, that world was changing. The fish market that had sustained towns like Lockeport was weakening — some reports even describe it as a collapse — and the pressure was part of the world he grew up in. In 1907, when Locke was already a young man, local leaders incorporated Lockeport as a town in order to secure provincial support, a sign of how serious the strain had become.</p>
+        <p>By the time Cyril was growing up, that world was changing. The fish market that had sustained towns like Lockeport was weakening — some reports even describe it as a collapse — and the pressure was part of the world he grew up in. In 1907, when Locke was already a young man, local leaders incorporated Lockeport as a town in order to secure provincial support, a sign of how serious the strain had become.</p>
 
-      <p>From Lockeport, he went on to Acadia University, one of the leading universities in the Maritimes. He graduated at the top of his class in 1911 and received the Governor General’s Medal. While there, he was not only an outstanding student but part of campus life, even appearing on the football team.</p>
+        <p>From Lockeport, he went on to Acadia University, one of the leading universities in the Maritimes. He graduated at the top of his class in 1911 and received the Governor General’s Medal. While there, he was not only an outstanding student but part of campus life, even appearing on the football team.</p>
 
-      <p>From Acadia he continued to Yale, graduating in 1912 and earning election to Phi Beta Kappa and Sigma Xi.</p>
+        <p>From Acadia he continued to Yale, graduating in 1912 and earning election to Phi Beta Kappa and Sigma Xi.</p>
 
-      <p>By his twenties, he was already far from home.</p>
+        <p>By his twenties, he was already far from home.</p>
 
-      <p>In 1915, at just 29 years old, Locke was serving as superintendent of schools in Red Deer, Alberta — a fast-growing western Canadian town still taking shape. That same year, he married Ruth Hardy of Massachusetts, a connection that would eventually help bring him back east.</p>
+        <p>In 1915, at just 29 years old, Locke was serving as superintendent of schools in Red Deer, Alberta — a fast-growing western Canadian town still taking shape. That same year, he married Ruth Hardy of Massachusetts, a connection that would eventually help bring him back east.</p>
 
-      <p>Red Deer was not a brief stop. Locke spent roughly a decade there, and those years would have tested any school administrator. Before the First World War, Red Deer had been able to attract highly qualified teachers. At one point, its high school teachers all held university degrees. But the war changed everything, and for Canada it arrived years sooner than it did for the United States.</p>
+        <p>Red Deer was not a brief stop. Locke spent roughly a decade there, and those years would have tested any school administrator. Before the First World War, Red Deer had been able to attract highly qualified teachers. At one point, its high school teachers all held university degrees. But the war changed everything, and for Canada it arrived years sooner than it did for the United States.</p>
 
-      <p>Teachers resigned to enlist. Salaries came under pressure. The school district struggled to hold staff and keep pace with a growing student population. By 1917, the system had been reduced to only fifteen staff members. Vacancies had to be filled however they could be filled, and Locke was no longer simply running a school; he was helping hold together a depleted school system during wartime.</p>
+        <p>Teachers resigned to enlist. Salaries came under pressure. The school district struggled to hold staff and keep pace with a growing student population. By 1917, the system had been reduced to only fifteen staff members. Vacancies had to be filled however they could be filled, and Locke was no longer simply running a school; he was helping hold together a depleted school system during wartime.</p>
 
-      <p>So when Locke later came to Billerica, he was not simply a promising young educator with impressive degrees. He had already led schools through growth, shortage, wartime disruption, and the strain of trying to educate students when the institution itself was under pressure.</p>
+        <p>So when Locke later came to Billerica, he was not simply a promising young educator with impressive degrees. He had already led schools through growth, shortage, wartime disruption, and the strain of trying to educate students when the institution itself was under pressure.</p>
 
-      <p>In 1926, Locke returned east. The move was not accidental. Ruth’s father was ill, and the family wanted to be closer to Massachusetts. Locke’s name was on file with a Boston teachers’ agency, and when Billerica’s superintendent, Eugene Vining, went looking for a principal, he was pointed directly to him.</p>
+        <p>In 1926, Locke returned east. The move was not accidental. Ruth’s father was ill, and the family wanted to be closer to Massachusetts. Locke’s name was on file with a Boston teachers’ agency, and when Billerica’s superintendent, Eugene Vining, went looking for a principal, he was pointed directly to him.</p>
 
-      <p>As the story was later told, the woman at the registry looked at Locke’s record and said: “Here’s your man.”</p>
+        <p>As the story was later told, the woman at the registry looked at Locke’s record and said:</p>
 
-      <p>Indeed he was.</p>
+        <blockquote>
+            “Here’s your man.”
+        </blockquote>
 
-      <p>When he took over as principal of Howe High School, the school enrolled fewer than 200 students.</p>
+        <p>Indeed he was.</p>
 
-      <p>It was the kind of school that suited him. Ruth later recalled that Locke preferred a smaller school — one where he could know his students personally. His first graduating class numbered only a few dozen.</p>
+        <p>When he took over as principal of Howe High School, the school enrolled fewer than 200 students.</p>
 
-      <p>But Locke was not only presiding over a quiet small-town school. In his own reports, he comes through as a principal thinking hard about what a growing high school was for.</p>
+        <p>It was the kind of school that suited him. Ruth later recalled that Locke preferred a smaller school — one where he could know his students personally. His first graduating class numbered only a few dozen.</p>
 
-      <p>By the mid-1930s, he was already writing that Howe High’s rising numbers posed “some problems in administration,” especially the question of what courses should be offered “to the large body of pupils who go no farther than the high school.”</p>
+        <p>But Locke was not only presiding over a quiet small-town school. In his own reports, he comes through as a principal thinking hard about what a growing high school was for.</p>
 
-      <p>His answer was not to lower standards. It was to broaden what the school could offer while still “maintaining the high standard of work” expected of students headed on to further study.</p>
+        <p>By the mid-1930s, he was already writing that Howe High’s rising numbers posed “some problems in administration,” especially the question of what courses should be offered “to the large body of pupils who go no farther than the high school.”</p>
 
-      <p>That was the central problem of Locke’s career in Billerica. He was leading a school in a town that was changing under his feet. Billerica was still, in many ways, a smaller farm-and-mill town when he first arrived. But its school system was beginning to serve a broader, more complicated student body. Not every student was preparing for college. Many would enter work directly after graduation. Locke understood that a public high school had to serve both groups.</p>
+        <p>His answer was not to lower standards. It was to broaden what the school could offer while still “maintaining the high standard of work” expected of students headed on to further study.</p>
 
-      <p>At the same time, a man with Locke’s education — Acadia, Yale, Phi Beta Kappa, Sigma Xi, national academic honors — would have stood out. He would have been among the most formally educated people in town.</p>
+        <p>That was the central problem of Locke’s career in Billerica. He was leading a school in a town that was changing under his feet. Billerica was still, in many ways, a smaller farm-and-mill town when he first arrived. But its school system was beginning to serve a broader, more complicated student body. Not every student was preparing for college. Many would enter work directly after graduation. Locke understood that a public high school had to serve both groups.</p>
 
-      <p>Over the next three decades, both the school and the town changed dramatically.</p>
+        <p>At the same time, a man with Locke’s education — Acadia, Yale, Phi Beta Kappa, Sigma Xi, national academic honors — would have stood out. He would have been among the most formally educated people in town.</p>
 
-      <p>Locke understood that change in very concrete terms. Looking back on his first years in Billerica, he wrote: “Eight years ago I wrote my first report as Principal of Howe High School. We then had 178 pupils with eight full-time and two part-time teachers. We now have 377 pupils with twelve full-time and five part-time teachers.”</p>
+        <p>Over the next three decades, both the school and the town changed dramatically.</p>
 
-      <p>His reports show attention not only to enrollment and staffing, but to curriculum, standards, extracurricular life, and the larger question of how to educate students whose schooling might end with high school. As he put it, the aim was not simply marks, but “conscientious hard work and interest in school work.”</p>
+        <p>Locke understood that change in very concrete terms. Looking back on his first years in Billerica, he wrote:</p>
 
-      <p>He could be a bit dry, too. Reporting on an early football season, Locke noted that “although we won only one game, we have made a good start toward developing this branch of sport.”</p>
+        <blockquote>
+            “Eight years ago I wrote my first report as Principal of Howe High School. We then had 178 pupils with eight full-time and two part-time teachers. We now have 377 pupils with twelve full-time and five part-time teachers.”
+        </blockquote>
 
-      <p>Locke was no stranger to the gridiron. The Acadia University teams he played on captured the prestigious King-Richardson Cup — essentially a provincial championship — multiple seasons in a row.</p>
+        <p>His reports show attention not only to enrollment and staffing, but to curriculum, standards, extracurricular life, and the larger question of how to educate students whose schooling might end with high school. As he put it, the aim was not simply marks, but “conscientious hard work and interest in school work.”</p>
 
-      <p>Then came the war years.</p>
+        <p>He could be a bit dry, too. Reporting on an early football season, Locke noted that “although we won only one game, we have made a good start toward developing this branch of sport.”</p>
 
-      <p>At Howe High, boys left school before graduation to enter the service. Classes were thinned. School routines were disrupted. Students and families were living under pressures that reached directly into the classroom.</p>
+        <p>Locke was no stranger to the gridiron. The Acadia University teams he played on captured the prestigious King-Richardson Cup — essentially a provincial championship — multiple seasons in a row.</p>
 
-      <p>Locke’s wartime reports show him dealing with those pressures as daily reality. “In some families, both parents are working in war industries and in others the father is in service so the mother has all the family responsibility,” he wrote.</p>
+        <p>Then came the war years.</p>
 
-      <p>He saw the effect on students. Many pupils, especially in the first year of high school, had become indifferent to schoolwork and seemed “only to be waiting to become old enough to leave school altogether.”</p>
+        <p>At Howe High, boys left school before graduation to enter the service. Classes were thinned. School routines were disrupted. Students and families were living under pressures that reached directly into the classroom.</p>
 
-      <p>Locke’s warning was blunt: “regular attendance is absolutely necessary if any pupil is to make progress and that a high school diploma is frequently the chief means of securing a worthwhile position.”</p>
+        <p>Locke’s wartime reports show him dealing with those pressures as daily reality. “In some families, both parents are working in war industries and in others the father is in service so the mother has all the family responsibility,” he wrote.</p>
 
-      <p>Even in wartime, the school adapted. War-related courses were introduced. Students volunteered at observation posts. Others were released from school to assist in farming operations.</p>
+        <p>He saw the effect on students. Many pupils, especially in the first year of high school, had become indifferent to schoolwork and seemed “only to be waiting to become old enough to leave school altogether.”</p>
 
-      <p>And when the war ended, the school did not simply return to normal. Billerica kept growing. Enrollment surged. The school found itself under still greater pressure, at times operating in multiple sessions just to keep up.</p>
+        <p>Locke’s warning was blunt: “regular attendance is absolutely necessary if any pupil is to make progress and that a high school diploma is frequently the chief means of securing a worthwhile position.”</p>
 
-      <p>By 1950, Locke was writing in unmistakably urgent terms. Looking ahead to the next year, he warned that “we shall have a Senior High registration of 597. This is 88 more than we have this year and we cannot possibly accommodate such numbers under our present organization.”</p>
+        <p>Even in wartime, the school adapted. War-related courses were introduced. Students volunteered at observation posts. Others were released from school to assist in farming operations.</p>
 
-      <p>Then he calculated the need with the precision of a man who had spent years stretching a building beyond its design: “This means that we shall need at least four more full-sized class rooms than there are rooms in the two buildings now in use, and we could use to advantage two more than these four.”</p>
+        <p>And when the war ended, the school did not simply return to normal. Billerica kept growing. Enrollment surged. The school found itself under still greater pressure, at times operating in multiple sessions just to keep up.</p>
 
-      <p>He closed with the line that said the most: “Eventually the only way out of our housing difficulties will be found in a building program.”</p>
+        <p>By 1950, Locke was writing in unmistakably urgent terms. Looking ahead to the next year, he warned that “we shall have a Senior High registration of 597. This is 88 more than we have this year and we cannot possibly accommodate such numbers under our present organization.”</p>
 
-      <p>Locke had arrived when Howe High enrolled fewer than 200 students. By the end of his career, the problem was no longer how to run a small-town high school. It was how to fit a rapidly growing town into a school system built for an earlier Billerica.</p>
+        <p>Then he calculated the need with the precision of a man who had spent years stretching a building beyond its design:</p>
 
-      <p>He was here as Billerica began moving into a much larger suburban future. He was here through the Depression, through World War II, through postwar expansion, and through the school crowding that would force Billerica to build differently.</p>
+        <blockquote>
+            “This means that we shall need at least four more full-sized class rooms than there are rooms in the two buildings now in use, and we could use to advantage two more than these four.”
+        </blockquote>
 
-      <p>He also lived long enough to see the profession itself change.</p>
+        <p>He closed with the line that said the most:</p>
 
-      <p>Writing in 1965, more than a decade after his retirement, Locke noted that when he retired in 1953 after 27 years as principal, his salary had been less than that of a starting teacher then. His retirement allowance, tied to that earlier salary, had not kept pace.</p>
+        <blockquote>
+            “Eventually the only way out of our housing difficulties will be found in a building program.”
+        </blockquote>
 
-      <p>It was a quiet observation, but it captured how much had shifted during his lifetime. Locke had entered education in an era when a small high school could be run almost personally by its principal. By the time Billerica named a school for him, public education had become larger, more professionalized, more expensive, and far more central to town life.</p>
+        <p>Locke had arrived when Howe High enrolled fewer than 200 students. By the end of his career, the problem was no longer how to run a small-town high school. It was how to fit a rapidly growing town into a school system built for an earlier Billerica.</p>
 
-      <p>Cyril D. Locke died in 1973, having spent nearly half a century in Billerica.</p>
+        <p>He was here as Billerica began moving into a much larger suburban future. He was here through the Depression, through World War II, through postwar expansion, and through the school crowding that would force Billerica to build differently.</p>
 
-      <p>But the school was not named for him only after he was gone. That is one of the most meaningful parts of the story.</p>
+        <p>He also lived long enough to see the profession itself change.</p>
 
-      <p>When plans were made for the school that would bear his name, Locke was asked for his permission — and he was there to mark its beginning.</p>
+        <p>Writing in 1965, more than a decade after his retirement, Locke noted that when he retired in 1953 after 27 years as principal, his salary had been less than that of a starting teacher then. His retirement allowance, tied to that earlier salary, had not kept pace.</p>
 
-      <p>His wife, Ruth, remembered it years later in an oral history recorded by the library:</p>
+        <p>It was a quiet observation, but it captured how much had shifted during his lifetime. Locke had entered education in an era when a small high school could be run almost personally by its principal. By the time Billerica named a school for him, public education had become larger, more professionalized, more expensive, and far more central to town life.</p>
 
-<blockquote>
-        <p>“Well, you know the nice part of it was the honors that were done for Mr. Locke were done while he lived. And he knew.</p>
-        <p>In fact, he dug the first sod for his school… I think the thing that touched him the most about that was when the members of the building committee wrote to him and asked if he would permit them to build the school in his name.</p>
-        <p>He looked at me and he said, ‘Why they’re asking my permission?’ He said, ‘Just think of that!’ That really touched him more than anything else, I really do think.”</p>
-      </blockquote>
+        <p>Cyril D. Locke died in 1973, having spent nearly half a century in Billerica.</p>
 
-      <p>That is the human center of the Locke story.</p>
+        <p>But the school was not named for him only after he was gone. That is one of the most meaningful parts of the story.</p>
 
-      <p>We often wait until someone is gone to decide what they meant to a place. In Locke’s case, Billerica chose to say it while he was still here to hear it.</p>
+        <p>When plans were made for the school that would bear his name, Locke was asked for his permission — and he was there to mark its beginning.</p>
 
-      <p>In another version of his life, Cyril Locke might have remained in Alberta, and his name might be found on a school there instead. But his path led from a small maritime town in Nova Scotia to Acadia, Yale, western Canada, and finally Billerica.</p>
+        <p>His wife, Ruth, remembered it years later in an oral history recorded by the library:</p>
 
-      <p>And here, he stayed.</p>
+        <blockquote>
+            “Well, you know the nice part of it was the honors that were done for Mr. Locke were done while he lived. And he knew.<br><br>
+
+            In fact, he dug the first sod for his school… I think the thing that touched him the most about that was when the members of the building committee wrote to him and asked if he would permit them to build the school in his name.<br><br>
+
+            He looked at me and he said, ‘Why they’re asking my permission?’ He said, ‘Just think of that!’ That really touched him more than anything else, I really do think.”
+        </blockquote>
+
+        <p>That is the human center of the Locke story.</p>
+
+        <p>We often wait until someone is gone to decide what they meant to a place. In Locke’s case, Billerica chose to say it while he was still here to hear it.</p>
+
+        <p>In another version of his life, Cyril Locke might have remained in Alberta, and his name might be found on a school there instead. But his path led from a small maritime town in Nova Scotia to Acadia, Yale, western Canada, and finally Billerica.</p>
+
+        <p>And here, he stayed.</p>
+
+        <footer>
+            <p>Written by Keith Lavon.</p>
+        </footer>
     </article>
+</main>
+```
 
-    <footer>
-      <p>Billerica Rabbit Holes</p>
-    </footer>
-  </main>
 </body>
 </html>
