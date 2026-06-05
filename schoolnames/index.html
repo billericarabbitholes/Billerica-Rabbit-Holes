@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Billerica School Names</title>
 
   <style>
     body {
@@ -19,6 +22,21 @@
       padding: 40px 22px 70px;
     }
 
+    nav {
+      margin-bottom: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.92rem;
+    }
+
+    nav a {
+      color: #633c1f;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     header {
       border-bottom: 2px solid #2f2a24;
       margin-bottom: 32px;
@@ -29,17 +47,25 @@
       margin: 0 0 10px;
       font-size: 2.2rem;
       line-height: 1.15;
+      color: #633c1f;
     }
 
     .subtitle {
       margin: 0;
       font-size: 1.05rem;
       color: #5a5147;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
     }
 
     .intro {
       font-size: 1.08rem;
       margin-bottom: 32px;
+    }
+
+    .intro p {
+      margin: 0 0 1.05rem;
     }
 
     .school-list {
@@ -54,7 +80,7 @@
       padding: 18px 20px;
       background: #fffdf8;
       border: 1px solid #d8d0c3;
-      border-left: 5px solid #2f2a24;
+      border-left: 5px solid #633c1f;
       text-decoration: none;
       color: inherit;
       transition: background 0.15s ease, transform 0.15s ease;
@@ -68,12 +94,14 @@
     .school-card h2 {
       margin: 0 0 6px;
       font-size: 1.25rem;
+      color: #1f2933;
     }
 
     .school-card p {
       margin: 0;
       color: #5a5147;
       font-size: 0.98rem;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     footer {
@@ -82,70 +110,79 @@
       border-top: 1px solid #d8d0c3;
       color: #6a6258;
       font-size: 0.92rem;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 20px 12px 48px;
+      }
     }
   </style>
+
 </head>
 
 <body>
   <main class="page">
-    <header>
-      <h1>Billerica School Names</h1>
-    </header>
+    <nav><a href="../index.html">← Back to home</a></nav>
 
-    <section class="intro">
+```
+<header>
   <h1>Billerica School Names</h1>
+  <p class="subtitle">A local history series</p>
+</header>
 
+<section class="intro">
   <p>This project explores the men whose names were given to Billerica public schools.</p>
 
-  <p>The series was written during the spring of 2026 and focuses primarily on schools that were still active or still standing when the project began, with the notable exception of Vining Elementary, which had only very recently closed. John F. Kennedy School and Thomas Ditson School were intentionally not included.</p>
+  <p>The series was written during the spring of 2026 and focuses primarily on schools that were still active or still standing when the project began, with the notable exception of Vining Elementary, which had only very recently closed. John F. Kennedy Elementary School and Thomas Ditson Elementary School were intentionally not included.</p>
 
   <p>These essays were originally published individually online and are collected here to make them easier to read, preserve, and search in one place. The research relied heavily on newspapers, town reports, census records, yearbooks, cemetery records, local histories, archival collections, and other publicly available materials.</p>
 
   <p>Any references to current landmarks, buildings, businesses, roads, or school sites reflect Billerica as it appeared in 2026.</p>
 </section>
 
+<section class="school-list" aria-label="School name articles">
+  <a class="school-card" href="fjdutile.html">
+    <h2>Frederick J. Dutile</h2>
+    <p>Read the article</p>
+  </a>
 
-    <section class="school-list" aria-label="School name articles">
+  <a class="school-card" href="sghajjar.html">
+    <h2>Solomon G. Hajjar</h2>
+    <p>Read the article</p>
+  </a>
 
-      <a class="school-card" href="fjdutile.html">
-        <h2>Frederick J. Dutile</h2>
-        <p>Read the article</p>
-      </a>
+  <a class="school-card" href="cdlocke.html">
+    <h2>Cyril D. Locke</h2>
+    <p>Read the article</p>
+  </a>
 
-           <a class="school-card" href="sghajjar.html">
-        <h2>Solomon G. Hajjar</h2>
-        <p>Read the article</p>
-      </a>
+  <a class="school-card" href="osmarshall.html">
+    <h2>Orland S. Marshall</h2>
+    <p>Read the article</p>
+  </a>
 
-       <a class="school-card" href="cdlocke.html">
-        <h2>Cyril D. Locke</h2>
-        <p>Read the article</p>
-      </a>
+  <a class="school-card" href="parker.html">
+    <h2>Parker Family</h2>
+    <p>Read the article</p>
+  </a>
 
-      <a class="school-card" href="osmarshall.html">
-        <h2>Orland S. Marshall</h2>
-        <p>Read the article</p>
-      </a>
+  <a class="school-card" href="ecvining.html">
+    <h2>Eugene C. Vining</h2>
+    <p>Read the article</p>
+  </a>
+</section>
 
-            <a class="school-card" href="parker.html">
-        <h2>Parker Family</h2>
-        <p>Read the article</p>
-      </a>
-      
-      <a class="school-card" href="ecvining.html">
-        <h2>Eugene C. Vining</h2>
-        <p>Read the article</p>
-      </a>
+<footer>
+  <p>Written and researched in the Spring of 2026 as part of an ongoing series on Billerica local history.</p>
+</footer>
+```
 
-     
-     
-    </section>
-
-    <footer>
-      <p>
-        Written and researched in the Spring of 2026 as part of an ongoing series on Billerica local history.
-      </p>
-    </footer>
   </main>
 </body>
 </html>
